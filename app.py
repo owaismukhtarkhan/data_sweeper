@@ -90,4 +90,10 @@ if uploaded_files:
 
             st.success("All Files Processed!")
 
-# to run program type - streamlit run app.py
+# Adding Personal Info in the Sidebar
+st.sidebar.markdown("---")
+st.sidebar.write("**Developed By:** Owais Mukhtar Khan")
+st.sidebar.write("**Contact:** owaismukhtarkhan@gmail.com")
+st.sidebar.write("**GitHub:** [GitHub Profile](https://github.com/owaismukhtarkhan)")
+
+# to run program type - streamlit run unit_converter.py
